@@ -11,9 +11,9 @@ function App() {
           a Software Engineer
         </p>
       </header>
-      <main className="App-main">
+      {/* <main className="App-main">
         <h2>About</h2>
-      </main>
+      </main> */}
     </div>
   );
 }
