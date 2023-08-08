@@ -3,8 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <>
-      <div className="work" id="work">
-      </div>
+      <div className="work" id="work"></div>
     </>
   );
 };

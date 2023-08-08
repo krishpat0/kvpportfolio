@@ -22,31 +22,48 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-.nav{
-  min-height: 80px;
-  background-color: teal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size:1.875rem;
-  position: sticky;
-  top: 0;left: 0;right: 0;
-}
-
-.nav ul{
-  display: flex;
-  gap: 1.875rem;
-  list-style: none;
-
-}
-.nav a{
+a{
   text-decoration: none;
-  padding: 5px 10px;
+}
+li{
+  list-style: none;
+}
+html{
+  font-size: 62.5%;
+}
+
+nav{
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:0.625rem 1.875rem;
+  
+  position: sticky;
+  top: 0;right: 0;left: 0;
+  z-index: 1;
+  height: 8vh;
+  background-color: black;
 
 }
-.main{
+
+nav ul{
+  display: flex;
+  gap: 30px;
 
 }
+nav ul li a{
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
   .about{
     min-height: 100vh;
     background-color: brown;
@@ -54,14 +71,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  }
+  .about h1{
+    font-size: 3.25rem;
   }
 
-  a:hover{
-    background-color: rgb(41, 24, 46);
-    border-radius: 10px;
-    border-bottom: 2px solid rgb(214, 233, 11);
-    
+  .about p{
+    font-size: 2rem;
   }
+
 
   .work{
     min-height: 100vh;
@@ -80,7 +99,11 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+
     
+  }
+  .footer p{
+    font-size: 2rem;
   }
   strong{
     font-weight: bolder;

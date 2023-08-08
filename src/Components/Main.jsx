@@ -7,9 +7,11 @@ import Contact from "./Contact";
 const Main = () => {
   return (
     <>
-      <About></About>
-      <Work></Work>
-      <Contact></Contact>
+      <main>
+        <About></About>
+        <Work></Work>
+        <Contact></Contact>
+      </main>
     </>
   );
 };
