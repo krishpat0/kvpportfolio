@@ -1,21 +1,6 @@
-import './App.css';
-
+import Home from "./Pages/Home";
+import "./style.scss";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Hey I am Krishna Patil
-        </h1>
-        <p>
-          a Software Engineer
-        </p>
-      </header>
-      {/* <main className="App-main">
-        <h2>About</h2>
-      </main> */}
-    </div>
-  );
+  return <Home></Home>;
 }
-
 export default App;
